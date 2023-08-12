@@ -1,0 +1,10 @@
+#!/usr/bin/python3.10
+x="Python"
+y="-".join(x)
+print(y)
+y="*".join(x)
+print(y)
+y="\n".join(x)
+print(y)
+y="\t".join(x)
+print(y)
