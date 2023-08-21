@@ -1,0 +1,11 @@
+if shell=True then your cmd is a string (as your os command)
+if shell=False then your cmd is a list.
+
+Note: shell=False then don't work on your os environment variables.
+
+ex: cmd="ls -ltr" ==>Shell=True
+    shell=False ==> cmd="ls -ltr".split() or ["ls","-ltr"]
+
+shell=True ==> always true on Windows.
+
+

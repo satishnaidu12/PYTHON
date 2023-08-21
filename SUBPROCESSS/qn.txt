@@ -1,2 +1,0 @@
-Diff between SHELL = TRUE or FALSE.
-if Environment
