@@ -1,0 +1,7 @@
+Function:
+A function is ab block of code for some specific operation.
+Function code is re-usable
+it will execute only when it is called.
+Why Function are used?
+Code Reusability
+Improve Modularity

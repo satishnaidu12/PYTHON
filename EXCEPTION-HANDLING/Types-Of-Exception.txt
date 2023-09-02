@@ -1,0 +1,9 @@
+Exceptions Examples:
+IndexError
+ZeroDivisionError
+ImportError
+ValueError
+TypeError
+NameError
+FileNotFoundError
+IOError

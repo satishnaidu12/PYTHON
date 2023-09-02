@@ -1,0 +1,7 @@
+Basically, we can divide functions into the following two types:
+Buit-in Functions:
+	Function that are buit into Python.
+	For e.g:
+	len, id, min, max, int.
+User-Defnied Functions:
+	Functions defined by the users themseleves
