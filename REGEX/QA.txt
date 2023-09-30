@@ -1,0 +1,13 @@
+The different operations in python re are:
+match()
+search()
+findall()
+finditer()
+sub()
+split()
+complie() etc...
+Syntax:
+re.search(pattern,text)
+re.match(pattern,text)
+re.finditer(pattern,text)
+re.findall(pattern,text)

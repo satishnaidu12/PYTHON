@@ -1,0 +1,42 @@
+a,x,9 - Ordinary characters that match themselves.
+[abc]- Matches a or b or c.
+[a-c] - Matches a or b or c.
+[a-zA-Z0-9] - Macthes any letter from ( a to z) or (a to z) or (0 to 9)
+\w - Matches any single letter, digit or under score.
+\W - Opposite of \w
+\d - Matches decimal digit 0-9
+. - Matches any single character except newline character.
+
+^ - start of the string (and start of the line in-case of multiline string)
+
+$ - End of the ( and newline character in-case of multiline string)
+
+\b - Empty string at the beginning or end of a word. for eg: learn
+
+\B - Empty string NOT at the beginning or NOT end of a word. for eg: itlearnis
+
+\t, \n, \r - Matches tab, newline return respectively.
+
+{2} - exactly two times only.
+
+{2,} - Two or more time.
+
+{2,4} - exactly 2 or 4 times only.
+
+
+* - means zero times or many times.
+
+? - one time or none
+
+=======================================================================
+re.I = re.IGNORECASE = Makes the regular expression case-insensitive.
+re.L = re.LOCALE     = The behaviour of some special sequences like \w, \W, \b, \s, \S  will be be made dependant on the current locale, i.e the user's language, country 		       aso.
+re.M = re.MULTILINE  = ^ and $ will match at the beginning and at the end of each line and not just at the beginning and the end of the string.
+
+re.S = re.DOTALL     = The dot "." will match every character plus the new line.
+
+re.U = re.UNICODE    = Makes \w, \W \b \B \d \D \s \S dependent on the Unicode character properties.
+
+re.X = re.VERBOSE    = Allowing "verbose regular expressions", i.e. whitespace are ignored. This means that spaces, tabs, and carriage returns are not matched as such. If                  		       you want to match a spaces in a verbose regular expression, you'll need to escape it by escaping it with a backslash in front of it or include it 	               in a character class. # are also ignored, except when in character class or preceded by an non-escaped backslash.
+			Everthing following a "#" will be ignored until the end of the line, so this character can be used to start a comment.
+-----------------------------------------------------------------------
