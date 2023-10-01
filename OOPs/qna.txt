@@ -1,0 +1,6 @@
+what is the default arguments for methods in class?
+we can use any word but universally we use "self"
+
+What is encapsulation?
+self.name=name
+self.__age=age, "__" is called encapsulation, which cannot be accessed out side of class or method.

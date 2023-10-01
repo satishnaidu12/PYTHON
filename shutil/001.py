@@ -26,7 +26,7 @@ f1=open('/root/PYTHON/shutil/sourcepath/xyz.txt','r')
 f2=open('/root/PYTHON/shutil/destinationpath/abc.txt','w')
 shutil.copyfileobj(f1,f2) #will create abc.txt and copy metadata with content.
 
-#src="/root/PYTHON/shutil/sourcepath"
-#shutil.copytree(src,'/tmp/sourcepath')
+src="/root/PYTHON/shutil/sourcepath"  # copy sourcepath folder to /tmp
+shutil.copytree(src,'/tmp/sourcepath') 
 
 shutil.rmtree('/tmp/sourcepath')
